@@ -64,3 +64,30 @@ for i in 0x1F601...0x1F64F {
 }
 
 print("(-_-)")
+
+// Otra Practica de Switch 
+
+let edad: Int = 13
+
+switch edad {
+  case 1, 2, 3, 4, 5:
+  print("Eres un bambino")
+
+  case 6...12:
+  print("Eres un bambino mas grande")
+
+  case 12..<18:
+  print("Eres un adolescente")
+
+  case 18:
+  print("Ya eres un mayor de edad")
+
+  case 19...70:
+  print("Eres un adulto")
+
+  case 71...:
+  print("Eres un Zeus comleto")
+
+  default:
+  print("Puedes ser un inmortal")
+}
