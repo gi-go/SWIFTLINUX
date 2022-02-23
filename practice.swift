@@ -36,3 +36,31 @@ if (fecha2 == 1906 && fecha2 <= 1936) && fecha3 >= 1932 {
   print("Robert E. Howard ya habia fallecido")
 
 }
+
+
+// Switch
+
+let pais: String = "Estados Unidos"
+
+switch pais {
+  case "Alemania", "Austria", "Namibia":
+  print("En \(pais) se habla el idioma Aleman")
+
+  case "Inglaterra", "Estados Unidos", "Australia":
+  print("En \(pais) se habla el idioma ingles")
+
+  case "Costa Rica", "Guatemala", "Chile":
+  print("En \(pais) se habla el idioma espanol")
+
+  default:
+  print("No tenemos el idioma registrado para \(pais)")
+}
+
+print(0x1F64F)
+
+for i in 0x1F601...0x1F64F {
+    let c = String(UnicodeScalar(i) ?? "-")
+    print(c)
+}
+
+print("(-_-)")
